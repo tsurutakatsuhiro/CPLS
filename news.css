@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.news-item:not(:first-child){
+  margin-top: 10px;
+}
+
+.page-mv{
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../common/mv.png) center / cover;
+  color: #fff;
+}
+
+.news-item-link{
+  display: flex;
+  align-items: center;
+  border: 1px solid #222;
+  padding: 20px;
+}
+
+.news-item-date{
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .news-item-link{
+    padding: 10px;
+    font-size: 14px;
+  }
+}

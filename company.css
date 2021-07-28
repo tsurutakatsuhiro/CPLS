@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.page-mv{
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../common/mv.png) center / cover;
+  color: #fff;
+}
+
+.company-info{
+  width: 100%;
+	border-bottom: 1px solid #222;
+}
+
+.company-info-name,
+.company-info-data{
+	border-top: 1px solid #222;
+	padding: 20px 0;
+}
+-info-name{
+	font-weight: bold;
+	width: 30%;
+}
+
+.company-info-data{
+	width: 70%;
+}
